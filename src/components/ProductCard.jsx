@@ -1,5 +1,13 @@
 import { Link } from 'react-router-dom';
 
+/**
+ * Displays a product card with product information and action controls.
+ * @param {Object} product - The product to display.
+ * @param {string} product.image - URL of the product image.
+ * @param {string} product.name - Name of the product.
+ * @param {number} product.price - Price of the product.
+ * @param {string|number} product.id - Unique identifier for the product.
+ */
 export default function ProductCard({ product }) {
   return (
     <div className="product-card">

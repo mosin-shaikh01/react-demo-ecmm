@@ -1,5 +1,8 @@
 import React from 'react'
 
+/**
+ * Authentication page component.
+ */
 function Auth() {
   return (
     <div>
