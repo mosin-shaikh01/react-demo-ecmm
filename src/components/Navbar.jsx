@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+/**
+ * Renders the application's navigation bar with brand, navigation links, and authentication actions.
+ * @returns {JSX.Element} The navigation bar element.
+ */
 function Navbar() {
   return (
     <nav className='navbar'>

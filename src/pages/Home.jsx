@@ -3,6 +3,10 @@ import { getProducts } from '../data/products' // Assuming you have an API file 
 import { Link } from 'react-router-dom';
 import ProductCard from '../components/ProductCard'
 
+/**
+ * Renders the home page with a welcome hero section and a grid of products.
+ * @returns {JSX.Element} The rendered home page.
+ */
 function Home() {
     const products = getProducts(); // Assuming you have a function to fetch products
   return (
